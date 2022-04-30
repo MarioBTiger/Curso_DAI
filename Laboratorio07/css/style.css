@@ -1,0 +1,25 @@
+body{
+    background: #17b857;
+}
+H1{
+    font-size: 40;
+}
+.container{
+    width: min(100% - 2rem, 764px);
+    margin-inline: auto;
+}
+
+.table_items{
+    background: #FeFeFe;
+    border: 5px solid #e40808 !important;
+    box-shadow: rgba(0, 0, 0, 0.099) 1.95px 1.95px 2.6px;
+    overflow: hidden;
+}
+
+.table_form{
+    background: #FeFeFe;
+    border: 5px solid #e40808 !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    overflow: hidden;
+    
+}
