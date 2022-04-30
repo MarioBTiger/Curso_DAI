@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+}
+#cabecera{
+	height: 100px;
+	background-color:  	#006400;
+	color: #FFFFFF;
+	padding: 20px;
+	margin: 0 auto;
+}
+#cuerpo{
+	height: 500px;
+	background-color:  	#FFF;
+	color: #000000;
+	padding: 20px;
+	margin: 0 auto;
+}
+#columna{
+	width: 500px;
+	float: left;
+}
+#pie{
+	height: 30px;
+	background-color:  	#999999;
+	color: #FFFFFF;
+	padding: 20px;
+	margin: 0 auto;
+}
