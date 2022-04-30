@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Laboratorio 2</title> 
+    </head>
+    <link rel="stylesheet" href="estilos.css">
+  <body>
+    <div id="sidebar">
+      <div class="toggle-btn">
+        <span></span>
+      </div>
+      <ul>
+            <img src="javascript.jpg"  width="300" height="150" alt="Logo" class="logo">
+            <br><br>
+        <li>
+          <a class="text-muted" href="index.html">Volver al Inicio</a>
+        </li>
+        <br>
+        <li>
+          <a class="text-muted" href="ejercicio01.html">Ver Problema 1</a>
+        </li>
+        <br>
+        <li>
+          <a class="text-muted" href="ejercicio02.html">Ver Problema 2</a>
+        </li>
+        <br>
+        <li>
+            <a class="text-muted" href="ejercicio03.html">Ver Problema 3</a>
+        </li>
+        <br>
+        <li>
+          <a class="text-muted" href="ejercicio04.html">Ver Problema 4</a>
+        </li>
+        <br>
+        <li>
+          <a class="text-muted" href="ejercicio05.html">Ver Problema 5</a>
+        </li>
+      </ul>
+    </div>
+    <script src="js/bootstrap.js"></script>
+      <center>
+        <h5><script>
+            let Nu1, Nu2;
+            Nu1 = parseInt(prompt("Ingrese el Primer Número:"));
+            Nu2 = parseInt(prompt("Ingrese el Segundo Número:"));
+            if (Nu1 > Nu2) {
+                let suma, diferencia;
+                suma = Nu1 + Nu2;
+                diferencia = Nu1 - Nu2;
+                document.write("La Suma es:" + suma);
+                document.write("<br>");
+                document.write("La Diferencia es:" + diferencia);
+            } else {
+                let producto, division;
+                producto = Nu1 * Nu2;
+                division = Nu1 / Nu2;
+                document.write("El Producto es " + producto);
+                document.write("<br>");
+                document.write("La División del Primer Número respecto al Segundo Número es:" + division);
+            }
+        </script></h5>
+        </center>
+</body>
+</html>
