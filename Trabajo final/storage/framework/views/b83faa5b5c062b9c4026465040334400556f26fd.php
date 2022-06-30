@@ -1,0 +1,2 @@
+<a <?php echo e($attributes->merge(['class' => 'block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition'])); ?>><?php echo e($slot); ?></a>
+<?php /**PATH E:\3er Ciclo - C24A\Desarrollo de Aplicaciones en Internet\Clase S14 - Laravel - Parte VI\lab14 Jetstream con livewire\app\resources\views/vendor/jetstream/components/dropdown-link.blade.php ENDPATH**/ ?>
